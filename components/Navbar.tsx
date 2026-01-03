@@ -68,10 +68,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
             className="block w-full text-center bg-brand-blue text-white px-5 py-3 rounded-xl font-semibold"
           >
             Workspace
-              <ArrowRight
-                className="ml-2 group-hover:translate-x-1 transition-transform"
-                size={16}
-              />
+             
           </a>
           </div>
 
