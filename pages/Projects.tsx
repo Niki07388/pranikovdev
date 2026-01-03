@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                       rel="noopener noreferrer"
                       className="font-semibold text-blue-600 dark:text-blue-400 hover:underline cursor-pointer"
                     >
-                   velvetbrews.com
+                   pranikov.dev
                   </a>
                 </div>
                    <div className="flex items-center justify-between">
