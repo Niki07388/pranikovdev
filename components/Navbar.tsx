@@ -106,13 +106,15 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
             </Link>
           ))}
 
-          <Link
-            to="https://pranikov-workspace.vercel.app/"
+          <a
+            href="https://pranikov-workspace.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
             className="block w-full text-center bg-brand-blue text-white px-5 py-3 rounded-xl font-semibold"
           >
             Workspace
-          </Link>
+          </a>
         </div>
       )}
     </nav>
