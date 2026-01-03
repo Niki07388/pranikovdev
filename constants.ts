@@ -85,6 +85,7 @@ export const INITIAL_PROJECTS = [
     date: '2026-01-10',
     client: 'Shilpa Hospitals',
     featured: true,
-    views: 890
+    views: 890,
+    link:'https://health-hub-platform.vercel.app/'
   }
 ];
