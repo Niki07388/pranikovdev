@@ -72,8 +72,15 @@ const Projects: React.FC = () => {
                      <div className="flex items-center text-slate-500 dark:text-slate-400">
                        <User size={18} className="mr-3" /> <span className="text-sm">Demo visit</span>
                      </div>
-                     <span className="font-semibold dark:text-white">{project.link}</span>
-                   </div>
+                     <a 
+                      href={project.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="font-semibold text-blue-600 dark:text-blue-400 hover:underline cursor-pointer"
+                    >
+                   velvetbrews.com
+                  </a>
+                </div>
                    <div className="flex items-center justify-between">
                      <div className="flex items-center text-slate-500 dark:text-slate-400">
                        <Calendar size={18} className="mr-3" /> <span className="text-sm">Dead line</span>
