@@ -64,7 +64,7 @@ export const INITIAL_ABOUT = {
 };
 
 export const INITIAL_PROJECTS = [
-  {
+ {
     id: 'p1',
     title: 'Smart Café Management System',
     description: 'A modern café management platform designed for seamless order processing, inventory tracking, and real-time sales analytics.',
@@ -73,8 +73,9 @@ export const INITIAL_PROJECTS = [
     date: '2025-12-15',
     client: 'Manasa cafe',
     featured: true,
-    views: 1240
-  },
+    views: 1240,
+    link: 'https://velvet-brews-coimbatore.vercel.app/'
+},
   {
     id: 'p2',
     title: 'Health Care Management Systems',
