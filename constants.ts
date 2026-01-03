@@ -70,7 +70,7 @@ export const INITIAL_PROJECTS = [
     description: 'A modern café management platform designed for seamless order processing, inventory tracking, and real-time sales analytics.',
     techStack: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
     images: ['https://res.cloudinary.com/dezv0qrah/image/upload/v1767285971/Screenshot_2026-01-01_220815_dxwm22.png','https://res.cloudinary.com/dezv0qrah/image/upload/v1767285969/Screenshot_2026-01-01_221448_l7moiy.png','https://res.cloudinary.com/dezv0qrah/image/upload/v1767285969/Screenshot_2026-01-01_221448_l7moiy.png','https://res.cloudinary.com/dezv0qrah/image/upload/v1767285971/Screenshot_2026-01-01_221504_svc5jy.png'],
-    date: '2023-11-15',
+    date: '2025-12-15',
     client: 'Manasa cafe',
     featured: true,
     views: 1240
