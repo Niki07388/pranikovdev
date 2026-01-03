@@ -60,17 +60,19 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
             >
               {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
             </button>
-
-            <Link
-              to="/contact"
-              className="bg-brand-blue hover:bg-brand-dark text-white px-5 py-2.5 rounded-full text-sm font-bold transition-all flex items-center group shadow-lg shadow-blue-500/20"
-            >
-              Start Project
+            <a
+            href="https://pranikov-workspace.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
+            className="block w-full text-center bg-brand-blue text-white px-5 py-3 rounded-xl font-semibold"
+          >
+            Workspace
               <ArrowRight
                 className="ml-2 group-hover:translate-x-1 transition-transform"
                 size={16}
               />
-            </Link>
+          </a>
           </div>
 
           {/* Mobile menu button */}
