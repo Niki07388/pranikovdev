@@ -107,11 +107,11 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           ))}
 
           <Link
-            to="/contact"
+            to="https://pranikov-workspace.vercel.app/"
             onClick={() => setIsOpen(false)}
             className="block w-full text-center bg-brand-blue text-white px-5 py-3 rounded-xl font-semibold"
           >
-            Start Project
+            Workspace
           </Link>
         </div>
       )}
