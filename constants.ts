@@ -71,7 +71,7 @@ export const INITIAL_PROJECTS = [
     techStack: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
     images: ['https://res.cloudinary.com/dezv0qrah/image/upload/v1767285971/Screenshot_2026-01-01_220815_dxwm22.png','https://res.cloudinary.com/dezv0qrah/image/upload/v1767285969/Screenshot_2026-01-01_221448_l7moiy.png','https://res.cloudinary.com/dezv0qrah/image/upload/v1767285969/Screenshot_2026-01-01_221448_l7moiy.png','https://res.cloudinary.com/dezv0qrah/image/upload/v1767285971/Screenshot_2026-01-01_221504_svc5jy.png'],
     date: '2023-11-15',
-    client: 'Kaapi infinitea',
+    client: 'Manasa cafe',
     featured: true,
     views: 1240
   },
@@ -81,7 +81,7 @@ export const INITIAL_PROJECTS = [
     description: 'A real-time healthcare management platform that integrates IoT-based patient monitoring with AI-powered predictive analytics to improve care delivery and operational efficiency.',
     techStack: ['Springboot', 'Postgres', 'React', 'railway'],
     images: ['https://res.cloudinary.com/dezv0qrah/image/upload/v1767283733/Screenshot_2026-01-01_213833_u6lcel.png', 'https://res.cloudinary.com/dezv0qrah/image/upload/v1767283848/Screenshot_2026-01-01_214015_f6ton1.png'],
-    date: '2024-01-20',
+    date: '2026-01-10',
     client: 'Shilpa Hospitals',
     featured: true,
     views: 890
